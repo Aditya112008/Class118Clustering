@@ -1,0 +1,14 @@
+Clustering : K-means algorithm 
+
+WCSS perimeter to evaluate the choice of K
+W - Within 
+C - Clusters
+S - Sum of
+S - Sqaures
+
+This means we are going to choose a center point for a cluster from where all the points falling inside that cluster will be closest
+Then we will caluculate the distance of all points from the center 
+Add up all the distances and then note the values 
+
+Repeat the process for another two center points and find the centroid which has minimum sum of all the distances 
+
